@@ -19,7 +19,8 @@ immurok is an open-source hardware security key with a built-in fingerprint sens
 | Repository | Description |
 |------------|-------------|
 | [immurok](https://github.com/immurok/immurok) | Project overview, BLE protocol spec, and security whitepaper |
-| [firmware](https://github.com/immurok/firmware) | CH592F firmware and OTA bootloader |
+| [firmware](https://github.com/immurok/firmware) | CH592F main application firmware |
+| [ota](https://github.com/immurok/ota) | OTA bootloader and firmware update tools |
 | [app-macos](https://github.com/immurok/app-macos) | macOS companion app (Swift) |
 | [app-linux](https://github.com/immurok/app-linux) | Linux companion app (Python) |
 | [hardware](https://github.com/immurok/hardware) | Hardware design, schematics, and component selection |
