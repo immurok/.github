@@ -1,5 +1,9 @@
 # immurok
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/immurok/immurok/main/assets/device.png" alt="immurok" width="320">
+</p>
+
 **Wireless fingerprint authenticator for Mac and Linux.**
 
 One touch to unlock your screen, authorize sudo, sign SSH commits, and more.
