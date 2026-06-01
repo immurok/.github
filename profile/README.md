@@ -1,7 +1,7 @@
 # immurok
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/immurok/immurok/main/assets/device.png" alt="immurok" width="320">
+  <img src="https://raw.githubusercontent.com/immurok/.github/main/profile/images/prd-preview.jpg" alt="immurok IK-1" width="600">
 </p>
 
 **Wireless fingerprint authenticator for Mac, Linux, and your AI coding agent.**
