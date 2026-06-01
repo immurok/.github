@@ -4,11 +4,11 @@
   <img src="https://raw.githubusercontent.com/immurok/immurok/main/assets/device.png" alt="immurok" width="320">
 </p>
 
-**Wireless fingerprint authenticator for Mac and Linux.**
+**Wireless fingerprint authenticator for Mac, Linux, and your AI coding agent.**
 
-One touch to unlock your screen, authorize sudo, sign SSH commits, and more.
+One touch to unlock your screen, authorize sudo, sign SSH commits, and gate the commands your AI agent runs on your behalf.
 
-immurok is an open-source hardware security key with a built-in fingerprint sensor. It brings biometric authentication to every Mac and Linux machine — desktops, clamshell laptops, and headless servers — over Bluetooth LE.
+immurok is an open-source hardware security key with a built-in fingerprint sensor. It brings biometric authentication to every Mac and Linux machine — desktops, clamshell laptops, and headless servers — and to AI coding agents, all over Bluetooth LE.
 
 ## Features
 
@@ -16,6 +16,7 @@ immurok is an open-source hardware security key with a built-in fingerprint sens
 - **sudo / polkit** — Fingerprint replaces password for privilege escalation
 - **SSH agent** — On-device ECDSA key generation and signing (private key never leaves the device)
 - **TOTP** — Hardware-backed one-time passwords with Quick Fill
+- **AI agent authorization** — Wrap an agent's subprocess with `imk run --agent --`. One fingerprint touch authorizes sudo + SSH signing + secret reads for the entire wrapped command; reject it and the subprocess gets `SIGTERM`.
 - **Mutual authentication** — ECDH P-256 pairing + HMAC-SHA256 signed notifications
 
 ## Repositories
@@ -26,7 +27,8 @@ immurok is an open-source hardware security key with a built-in fingerprint sens
 | [firmware](https://github.com/immurok/firmware) | CH592F main application firmware |
 | [ota](https://github.com/immurok/ota) | OTA bootloader and firmware update tools |
 | [app-macos](https://github.com/immurok/app-macos) | macOS companion app (Swift) |
-| [app-linux](https://github.com/immurok/app-linux) | Linux companion app (Python) |
+| [app-linux-rs](https://github.com/immurok/app-linux-rs) | Linux companion app — daemon + CLI (Rust) |
+| [imk-skill](https://github.com/immurok/imk-skill) | AI-agent skill — how Claude Code / Cursor / Codex / Cline / Gemini CLI use `imk run --agent` to gate privileged commands |
 | [hardware](https://github.com/immurok/hardware) | Hardware design, schematics, and component selection |
 
 ## License
