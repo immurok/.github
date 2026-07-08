@@ -8,7 +8,7 @@
 
 One touch to unlock your screen, authorize sudo, sign SSH commits, and gate the commands your AI agent runs on your behalf.
 
-immurok is an open-source hardware security key with a built-in fingerprint sensor. It brings biometric authentication to every Mac and Linux machine — desktops, clamshell laptops, and headless servers — and to AI coding agents, all over Bluetooth LE.
+immurok is a hardware security key with a built-in fingerprint sensor, with all source code public on GitHub. It brings biometric authentication to every Mac and Linux machine — desktops, clamshell laptops, and headless servers — and to AI coding agents, all over Bluetooth LE.
 
 ## Features
 
@@ -33,4 +33,4 @@ immurok is an open-source hardware security key with a built-in fingerprint sens
 
 ## License
 
-All repositories are licensed under [BSL 1.1](https://github.com/immurok/immurok/blob/main/LICENSE) — personal, education, and research use permitted. Converts to Apache 2.0 on 2030-03-05.
+All source code is public. The companion apps — [app-macos](https://github.com/immurok/app-macos) and [app-linux-rs](https://github.com/immurok/app-linux-rs), including the PAM modules — are open source under the **Apache License 2.0**. Firmware, hardware, and the remaining repositories are source-available under [BSL 1.1](https://github.com/immurok/immurok/blob/main/LICENSE) — personal, education, and research use permitted; converts to Apache 2.0 on 2030-03-05.
