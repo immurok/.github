@@ -37,3 +37,6 @@ immurok is a hardware security key with a built-in fingerprint sensor, with all 
 ## License
 
 All source code is public. The companion apps — [app-macos](https://github.com/immurok/app-macos) (including the PAM module), [app-win](https://github.com/immurok/app-win), and [app-linux-rs](https://github.com/immurok/app-linux-rs) — are open source under the **Apache License 2.0**. Firmware, hardware, and the remaining repositories are source-available under [BSL 1.1](https://github.com/immurok/immurok/blob/main/LICENSE) — personal, education, and research use permitted; converts to Apache 2.0 on 2030-03-05.
+
+## Back us on Kickstarter
+Our Kickstarter page: https://www.kickstarter.com/projects/immurok/immurokwireless-fingerprint-auth-key-for-mac-and-linux
